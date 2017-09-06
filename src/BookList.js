@@ -22,7 +22,7 @@ class BookList extends Component {
                     .map((book) => (
                       <li key={book.id}>
                         <Book
-                          book = {book}
+                          book={book}
                         />
                       </li>
                   ))}
@@ -38,7 +38,7 @@ class BookList extends Component {
                     .map((book) => (
                       <li key={book.id}>
                         <Book
-                          book = {book}
+                          book={book}
                         />
                       </li>
                   ))}
@@ -54,7 +54,7 @@ class BookList extends Component {
                     .map((book) => (
                       <li key={book.id}>
                         <Book
-                          book = {book}
+                          book={book}
                         />
                       </li>
                   ))}
